@@ -27,3 +27,6 @@ function NextDay(y, m, d){
   }
   console.log(y + "-" + m + "-" + d);
 }
+NextDay ('1', '1', '1');
+NextDay ('2020', '2', '29');
+NextDay ('2002', '2', '28');
