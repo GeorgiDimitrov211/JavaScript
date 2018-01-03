@@ -1,4 +1,4 @@
-function imperialUnits([track, artist, duration]){
+function nowPlaying([track, artist, duration]){
 let nowPlaying = {
   artistName: "artist",
   trackName: "track",
@@ -6,6 +6,5 @@ let nowPlaying = {
   }
 console.log("Now Playing: " + artist + " - " + track + " [" + duration + "]");
 }
-console.log(imperialUnits(['Number One', 'Nelly', '4:09']));
-console.log(imperialUnits(['55']));
-console.log(imperialUnits(['11']));
+nowPlaying(['Number One', 'Nelly', '4:09']);
+

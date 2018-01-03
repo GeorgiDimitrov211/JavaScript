@@ -11,6 +11,6 @@ function pointsInRectangle(input){
     console.log('outside');
   }
 }
-console.log(pointsInRectangle(['5', '-2', '7']));
-console.log(pointsInRectangle(['43', '43.2', '43.1']));
+pointsInRectangle(['5', '-2', '7']);
+pointsInRectangle(['43', '43.2', '43.1']);
 

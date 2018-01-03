@@ -9,4 +9,4 @@ function binToDec([bin]){
 }
 console.log(binToDec(['00001001']));
 console.log(binToDec(['11110000']));
-// console.log(binToDec(['11']));
+

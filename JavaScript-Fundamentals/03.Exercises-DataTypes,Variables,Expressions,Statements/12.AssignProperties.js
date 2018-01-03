@@ -6,7 +6,7 @@ let object = {
   }
   console.log(object);
 }
-console.log(assignProperties(['name', 'Pesho', 'age', '23', 'gender', 'male']));
-console.log(assignProperties(['10.5', '3']));
-// console.log(binToDec(['11']));
+assignProperties(['name', 'Pesho', 'age', '23', 'gender', 'male']);
+
+
 
